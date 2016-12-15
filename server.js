@@ -68,6 +68,8 @@ for (var key in redirects) {
   app.redirect("/post" + key, redirects[key])
 }
 
+app.redirect("/:post", "https://maori.geek.nz/:post")
+
 port = process.env.PORT || 8080
 console.log("PORT " + port)
 
