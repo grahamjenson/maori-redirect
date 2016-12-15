@@ -5,6 +5,7 @@ var app = express();
 redirect(app);
 
 var redirects = {
+  "/": "https://maori.geek.nz/",
   "/podcasts": "https://maori.geek.nz/podcasts-752bae5290c1",
   "/keystone-metrics-in-devops-the-30-day-project-coinbase" : "https://maori.geek.nz/keystone-metrics-in-devops-the-30-day-project-coinbase-b6c4e0109016",
   "/self-service-devops" : "https://maori.geek.nz/self-service-devops-coinbase-c7e185734adc",
