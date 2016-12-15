@@ -1,0 +1,14 @@
+{
+  "name": "maori-redirect",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "Graham Jenson <graham.jenson@coinbase.com>",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.14.0",
+    "express-redirect": "^1.2.2"
+  },
+  "scripts": {
+    "start": "node server.js"
+  }
+}
